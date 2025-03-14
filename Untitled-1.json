@@ -1,0 +1,36 @@
+{
+    "message": "Request failed with status code 410",
+    "config": {
+      "transitional": {
+        "silentJSONParsing": true,
+        "forcedJSONParsing": true,
+        "clarifyTimeoutError": false
+      },
+      "adapter": ["xhr", "http", "fetch"],
+      "transformRequest": [null],
+      "transformResponse": [null],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "X-Mobile-Request-Token": "*****************20c4f8b4674f4f43230c92815662",
+        "X-Mobile-OS": "android",
+        "X-Mobile-OS-VERSION": "15",
+        "X-Mobile-APP-VERSION": "1.10.6",
+        "X-New-Todo": "1",
+        "Authorization": "Bearer 37183|**************************",
+        "Cookie": "XSRF-TOKEN=******************************"
+      },
+      "url": "https://********************/profile-update",
+      "method": "post",
+      "data": "{\"inner_level_1\":{\"inner_level_2\":{\"inner_level_3\":{\"inner_level_4\":{\"inner_level_5\":{\"inner_level_6\":{\"inner_level_7\":{\"inner_level_8\":{\"inner_level_9\":{\"inner_level_10\":{\"dob\":\"2025-03-06\",\"image\":\"\",\"name\":\"John Doe\",\"phone\":\"123-456-7890\",\"nickname\":\"johndoe\",\"email\":\"john.doe@example.com\",\"profession\":\"Engineer\",\"gender\":\"M\",\"house_number\":\"123\",\"street_name\":\"Elm St.\",\"city\":\"New York\",\"zip_code\":\"10001\",\"country\":\"USA\",\"country_code\":\"US\",\"about\":\"Software developer\",\"language\":1}}}}}}}}}}}}}}}}}}}}"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 410
+  }
+  
